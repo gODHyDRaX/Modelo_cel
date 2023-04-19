@@ -1,0 +1,248 @@
+.pantalla{
+    width: 80rem;
+    height: 170rem;
+    background-color: whitesmoke;
+    margin:auto;
+    margin-top: 10rem;
+    border-radius: 1%;
+    position: relative;
+}
+.menu{
+    float:left;
+    width: 78rem;
+    height: 10rem;
+    margin-top: 10rem;
+    margin-left: 1rem;
+    justify-content: space-between;
+}
+.img1{
+    width: 8rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.img2{
+    width: 8rem;
+    margin-left:54rem;
+    margin-top: 1rem;
+}
+.titulo{
+    float: left;
+    width: 70rem;
+    height: 15rem;
+    font-size: 2.5rem;
+}
+.titulos{
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+.buscar{
+float: left;
+width: 60rem;
+height: 8rem;
+margin-left: 2rem;
+background: whitesmoke;
+box-shadow: 5px 4px 10px;
+border-radius: 1rem;
+font-size: 2.5rem;
+padding: 1.7rem;
+text-align: left;
+color: rgb(133, 130, 130);
+cursor:text;
+}
+.lupa{
+    float: right;
+    width: 10rem;
+    height: 8rem;
+    margin-right: 2rem;
+    cursor:pointer ;
+}
+.img3{
+   width: 110%;
+   margin-top: -1rem;
+   margin-left: -4rem;
+}
+.contenedor{
+    float: left;
+    width: 80rem;
+    height: 30rem;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-around;    
+}
+.imagenes{
+    width: 18rem;
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+    cursor: pointer;
+}
+.tabla{
+    width: 78rem;
+    height:5rem;
+    margin: auto;
+    margin-left: 3rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.tabla td :hover{
+    transition: 0.5s;
+    color: hsl(25, 100%, 55%);
+    cursor: pointer;
+}
+.imagen_grande{
+    width: 60rem;
+    margin-top: 7rem;
+    margin-left: 10.5rem;
+}
+.letras_imagen{
+    background-color: red;
+    width:56.5rem;
+    height: 10rem;
+    margin: auto;
+    margin-top: -14rem;
+    margin-left: 11.4rem;
+    border-radius: 3rem;
+    background: linear-gradient(180deg, rgba(0 0, 0, 0) 20.98%, #000000 100%);
+    position: relative;
+    color: whitesmoke;
+}
+.titulo_imagen{
+    float: left;
+    font-size: 4rem;
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+.final{
+    width: 78rem;
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.zona{
+    float: left;
+    color: white;
+    margin-left: 14rem;
+    margin-top: -7rem;
+    position: absolute;
+}
+.item2{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 5rem;
+    cursor: pointer;
+    font-size: 3rem;
+}   
+.img{
+    width: 6rem;
+    float: left;
+    position: absolute;
+    margin-left: 58rem;
+    margin-top: -6rem;
+}
+.item2 :hover{
+    transition: 0.5s;
+    filter: grayscale(300%) opacity(0.4) drop-shadow( 0 0 0 hsl(25, 100%, 55%));
+}
+.imagenes2{
+    width: 4.5rem;
+}
+.imagen_link{
+    float: left;
+    margin-left: -0.10rem;
+    width: 80.2rem;
+}
+.boton{
+    float: left;
+    position: absolute;
+    width: 10rem;
+    margin-top: 4rem;
+    margin-left: -78em;
+}
+.pantalla_baja{
+    width: 80rem;
+    height: 75rem;
+    position:absolute;
+    margin-top: 90rem;
+    border-radius: 15%;
+    background-color: whitesmoke;
+}
+.titulo2{
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 97rem;
+    margin-left: 5rem;
+}
+.titulo3{
+    position: absolute;
+    margin-top: 106rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #828282;
+}
+.titulo4{
+    position: absolute;
+    margin-top: 98.5rem;
+    margin-left: 65rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #828282;
+}
+.titulo5{
+    position: absolute;
+    margin-top: 105.7rem;
+    margin-left: 62.8rem;
+    font-size: 4rem;
+    color: #FF7A1A;;
+}
+.titulo5 b{
+    color: black;
+}
+.texto{
+    position: absolute;
+    margin-top: 115rem;
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    color: #828282;
+}
+.cuadros{
+    position: absolute;
+    width: 78.2rem;
+    height: 15rem;
+    margin-top: 135rem;
+    margin-left: 0.99rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item4{
+    width: 11rem;
+    height: 11rem;
+    margin-top: 2.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.cuadro_final{
+    position: absolute;
+    background-color: #FF7A1A;
+    color: white;
+    border-radius: 2%;
+    width: 75rem;
+    height: 10rem;
+    margin-left: 2.4rem;
+    margin-top: 155rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo_final{
+    margin-top: 3rem;
+    font-size: 3rem;
+}
